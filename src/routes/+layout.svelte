@@ -1,10 +1,18 @@
 <script lang="ts">
     import '../app.postcss';
-    import {AppShell, AppRail, AppRailTile, AppRailAnchor} from '@skeletonlabs/skeleton';
+    import {AppShell} from '@skeletonlabs/skeleton';
     import { TabGroup, TabAnchor } from '@skeletonlabs/skeleton';
     import { page } from '$app/stores';
 
-    // // Highlight JS
+    const mainPages: Array<string> = [
+      "about",
+      "experience",
+      "education",
+      "skills",
+      "projects",
+    ]
+
+    // Highlight JS
     // import hljs from 'highlight.js/lib/core';
     // import 'highlight.js/styles/github-dark.css';
     // import {storeHighlightJs} from '@skeletonlabs/skeleton';
@@ -18,51 +26,41 @@
     // hljs.registerLanguage('javascript', javascript);
     // hljs.registerLanguage('typescript', typescript);
     // storeHighlightJs.set(hljs);
-
 </script>
 
-<!-- App Shell -->
 <AppShell>
-  
-    <svelte:fragment slot="sidebarLeft">
-        <div class="bg-surface-100-800-token hidden w-96 md:block h-full">
-
-
-
+  <svelte:fragment slot="sidebarLeft">
+    <div class="bg-surface-100-800-token hidden h-full items-center justify-center px-28 md:grid ">
+      <div class="grid justify-center gap-4">
+        {#each mainPages as pageName}
+          <div>
+            <a href="{pageName}" class="text-xl" class:bg-primary-active-token={$page.url.pathname === `/${pageName}`}>{pageName}</a>
+          </div>
+        {/each}
+      </div>
     </div>
-        <AppRail class="">
-            
-            <AppRailAnchor href="/" selected={$page.url.pathname === '/'}>(icon)</AppRailAnchor>
-            <AppRailAnchor href="/about" selected={$page.url.pathname === '/about'}>(icon)</AppRailAnchor>
-          
-        
-        </AppRail>
-    </svelte:fragment>
+  </svelte:fragment>
     
-    <svelte:fragment slot="footer">
-      <TabGroup 
-        justify="justify-center"
-        active="variant-filled-primary"
-        hover="hover:variant-soft-primary"
-        flex="flex-1 lg:flex-none"
-        rounded=""
-        border=""
-        class="bg-surface-100-800-token w-full md:hidden"
-      >
-        <TabAnchor href="/" selected={$page.url.pathname === '/'}>
+  <svelte:fragment slot="header">
+    <TabGroup 
+      justify="justify-center"
+      active="variant-filled-primary"
+      hover="hover:variant-soft-primary"
+      flex="flex-1 lg:flex-none"
+      rounded=""
+      border=""
+      class="bg-surface-100-800-token w-full md:hidden"
+    >
+      {#each mainPages as pageName}
+        <TabAnchor href={pageName} selected={$page.url.pathname === `/${pageName}`}>
           <svelte:fragment slot="lead">(icon)</svelte:fragment>
-          <span>(label)</span>
+          <span>{pageName}</span>
         </TabAnchor>
-        <TabAnchor href="/" selected={$page.url.pathname === '/'}>
-          <svelte:fragment slot="lead">(icon)</svelte:fragment>
-          <span>(label)</span>
-        </TabAnchor>
-        <TabAnchor href="/" selected={$page.url.pathname === '/'}>
-          <svelte:fragment slot="lead">(icon)</svelte:fragment>
-          <span>(label)</span>
-        </TabAnchor>
-      </TabGroup>
-    </svelte:fragment>
-    
+      {/each}
+    </TabGroup>
+  </svelte:fragment>
+
+  <main class="px-28">
     <slot />
+  </main>
 </AppShell>
