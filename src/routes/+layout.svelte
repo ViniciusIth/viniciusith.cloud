@@ -13,11 +13,11 @@
 
 <AppShell>
   <svelte:fragment slot="sidebarLeft">
-    <div class="hidden h-full items-center px-44 grid-rows-[1fr_auto] border-r border-surface-500-400-token md:grid">
+    <div class="h-full items-center px-44 grid-rows-[1fr_auto] border-r border-surface-500-400-token grid">
       <div class="items-center md:grid">
         <div class="grid gap-4">
           {#each mainPages as pageName}
-            <a href="{pageName}" class="text-xl" class:bg-primary-active-token={$page.url.pathname === `/${pageName}`}>{pageName}</a>
+            <a href="/{pageName}" class="text-xl" class:bg-primary-active-token={$page.url.pathname === `/${pageName}`}>{pageName}</a>
           {/each}
         </div>
       </div>
