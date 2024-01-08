@@ -24,5 +24,8 @@
       <LightSwitch class="justify-self-center mb-5"/>
     </div>
   </svelte:fragment>
-  <slot/>
+
+   <div class="container px-44 py-12">
+    <slot/>
+  </div> 
 </AppShell>

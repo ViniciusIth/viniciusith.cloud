@@ -1,8 +1,8 @@
 <svelte:head>
-  <title>Experience</title>
+  <title>ViniciusIth - Experience</title>
 </svelte:head>
 
-<div class="resume-wrapper px-44 py-12 print:mx-[45mm] print:my-[30mm] print:w-[21cm]">
+<div class="resume-wrapper print:mx-[45mm] print:my-[30mm] print:w-[21cm]">
 
   <section>
     <h1 class="text-xl font-semibold">Vinicius Ithalo Dias</h1>
@@ -15,11 +15,8 @@
 
     <ul class="mt-6 list-none">
       <li><a class="anchor" href="https://github.com/ViniciusIth">github.com/ViniciusIth</a></li>
-      
       <li><a class="anchor" href="https://www.linkedin.com/in/vinithalo">linkedin.com/in/vinithalo</a></li>
-      
-      <li><a class="anchor" href="viniciusith.cloud">viniciusith.cloud</a></li>
-      
+      <li><a class="anchor" href="https://viniciusith.cloud">viniciusith.cloud</a></li>
     </ul>
   </section>
 
@@ -58,7 +55,6 @@
   <section class="mt-12">
     <h2 class="text-lg font-semibold">Education</h2>
 
-    
     <article class="my-4 pl-4">
       <h3 class="font-semibold">Universidade de Brasilia</h3>
 
@@ -81,7 +77,6 @@
   <section class="mt-12">
     <h2 class="text-lg font-semibold">Skillset</h2>
 
-    
     <article class="my-4 pl-4">
       <h3 class="font-semibold">Languages</h3>
 
