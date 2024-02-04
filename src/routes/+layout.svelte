@@ -1,31 +1,34 @@
 <script lang="ts">
-    import '../app.postcss';
-    import {AppShell} from '@skeletonlabs/skeleton';
-    import { page } from '$app/stores';
-    import { LightSwitch } from '@skeletonlabs/skeleton';
+    import "../app.postcss";
+    import { AppShell } from "@skeletonlabs/skeleton";
+    import { page } from "$app/stores";
+    import { LightSwitch } from "@skeletonlabs/skeleton";
 
-    const mainPages: Array<string> = [
-      "resume",
-      "projects",
-      "blog",
-    ]
+    const mainPages: Array<string> = ["resume", "projects", "blog"];
 </script>
 
 <AppShell>
-  <svelte:fragment slot="sidebarLeft">
-    <div class="h-full items-center px-44 grid-rows-[1fr_auto] border-r border-surface-500-400-token grid">
-      <div class="items-center md:grid">
-        <div class="grid gap-4">
-          {#each mainPages as pageName}
-            <a href="/{pageName}" class="text-xl" class:bg-primary-active-token={$page.url.pathname === `/${pageName}`}>{pageName}</a>
-          {/each}
+    <svelte:fragment slot="sidebarLeft">
+        <div
+            class="h-full items-center px-36 grid-rows-[1fr_auto] border-r border-surface-500-400-token grid"
+        >
+            <div class="items-center md:grid">
+                <div class="grid gap-4">
+                    {#each mainPages as pageName}
+                        <a
+                            href="/{pageName}"
+                            class="text-xl"
+                            class:bg-primary-active-token={$page.url
+                                .pathname === `/${pageName}`}>{pageName}</a
+                        >
+                    {/each}
+                </div>
+            </div>
+            <LightSwitch class="justify-self-center mb-5" />
         </div>
-      </div>
-      <LightSwitch class="justify-self-center mb-5"/>
-    </div>
-  </svelte:fragment>
+    </svelte:fragment>
 
-   <div class="container px-44 py-12">
-    <slot/>
-  </div> 
+    <div class="container px-44 py-12">
+        <slot />
+    </div>
 </AppShell>
