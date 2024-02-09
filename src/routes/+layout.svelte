@@ -1,12 +1,25 @@
 <script lang="ts">
     import "../app.postcss";
-    import { AppShell } from "@skeletonlabs/skeleton";
     import { page } from "$app/stores";
-    import { fly, blur } from "svelte/transition";
-    import { LightSwitch } from "@skeletonlabs/skeleton";
     import { onNavigate } from "$app/navigation";
+    import {
+        Drawer,
+        LightSwitch,
+        type DrawerSettings,
+    } from "@skeletonlabs/skeleton";
+    import { initializeStores } from "@skeletonlabs/skeleton";
+    import { getDrawerStore } from "@skeletonlabs/skeleton";
 
     const mainPages: Array<string> = ["resume", "projects", "blog"];
+
+    initializeStores();
+
+    const drawerStore = getDrawerStore();
+    const drawerSettings: DrawerSettings = {
+        width: "w-auto",
+        padding: "pr-4",
+        rounded: "rounded-r-xl",
+    };
 
     onNavigate((navigator) => {
         // @ts-expect-error startViewTransition types doesn't exist yet
@@ -20,35 +33,38 @@
             });
         });
     });
+
+    drawerStore.open(drawerSettings);
 </script>
 
-<AppShell>
-    <svelte:fragment slot="sidebarLeft">
-        <div
-            class="h-full items-center px-36 grid-rows-[1fr_auto] border-r border-surface-500-400-token grid"
-            class:hidden={$page.url.pathname === "/"}
-        >
-            <div class="items-center md:grid">
-                <div class="grid gap-4">
-                    {#each mainPages as pageName}
-                        <a
-                            href="/{pageName}"
-                            class="text-xl"
-                            class:bg-primary-active-token={$page.url
-                                .pathname === `/${pageName}`}>{pageName}</a
-                        >
-                    {/each}
-                </div>
-            </div>
-            <LightSwitch class="justify-self-center mb-5" />
+<Drawer>
+    <div class="grid grid-rows-3 h-full w-72 items-center">
+        <!-- <div -->
+        <!--     class="grid max-h-screen h-screen w-72 grid-rows-[1fr_1fr] items-end" -->
+        <!--     class:hidden={$page.url.pathname === "/"} -->
+        <!-- > -->
+        <div></div>
+        <div class="grid gap-4">
+            {#each mainPages as pageName}
+                <a
+                    href="/{pageName}"
+                    class="justify-self-center text-xl"
+                    class:bg-primary-active-token={$page.url.pathname ===
+                        `/${pageName}`}
+                    >{pageName}
+                </a>
+            {/each}
         </div>
-    </svelte:fragment>
-
-    <div
-        class="container px-44 py-12"
-        in:fly={{ x: -200, duration: 300, delay: 300 }}
-        out:blur={{ duration: 300 }}
-    >
-        <slot />
+        <LightSwitch class="mb-5 justify-self-center self-end" />
     </div>
-</AppShell>
+</Drawer>
+
+<div class="mx-auto max-w-3xl px-6 py-3 md:px-0 md:py-12">
+    <button
+        class="btn-icon btn-icon-sm variant-filled-surface mb-3"
+        on:click={() => {
+            drawerStore.open(drawerSettings);
+        }}><span class="material-symbols-outlined"> menu </span></button
+    >
+    <slot />
+</div>

@@ -16,10 +16,6 @@ export default {
                         name: 'crimson',
                         enhancements: true,
                     },
-                    {
-                        name: 'skeleton',
-                        enhancements: true,
-                    }
                 ],
             },
         }),
