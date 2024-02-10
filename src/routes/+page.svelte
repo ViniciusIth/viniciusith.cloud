@@ -2,9 +2,18 @@
     import { modeCurrent } from "@skeletonlabs/skeleton";
 </script>
 
+<svelte:head>
+    <title>ViniciusIth</title>
+
+    <meta
+        name="description"
+        content="ViniciusIth's personal website about programming and sometimes biology. Here you can find the portfolio and resume."
+    />
+</svelte:head>
+
 <section class="mb-10">
-    <h1 class="h2 mb-5">Hey there! I am ViniciusIth!</h1>
-    <p>I'm a developer from Brazil.</p>
+    <h1 class="h2 mb-5">ViniciusIth</h1>
+    <p>I'm a developer, and sometimes, a biologist from Brazil. I</p>
     <p>
         Take a look at my <a href="projects" class="anchor">portfolio</a>, my
         <a href="resume" class="anchor">resume</a> or contact me through one of the
@@ -53,5 +62,4 @@
         >
         <span>Email</span>
     </a>
-    <!-- ... -->
 </div>

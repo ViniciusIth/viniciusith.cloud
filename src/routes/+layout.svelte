@@ -36,7 +36,7 @@
         });
     });
 
-    drawerStore.open(drawerSettings);
+    // drawerStore.open(drawerSettings);
 </script>
 
 <Drawer>
@@ -46,18 +46,16 @@
         <!--     class:hidden={$page.url.pathname === "/"} -->
         <!-- > -->
         <a href="/" class="anchor">
-            <img
-                src={octopus}
-                class:invert={!$modeCurrent}
-                alt="Go to main page"
-            />
+            <img src={octopus} class:invert={!$modeCurrent} alt="Go to main page" />
         </a>
         <div class="grid gap-4">
             {#each mainPages as pageName}
                 <a
                     href="/{pageName}"
-                    class="justify-self-center text-xl"
-                    class:anchor={$page.url.pathname !== `/${pageName}`}
+                    class="justify-self-center text-xl "
+                    class:anchor={$page.url.pathname !==
+                        `/${pageName}`}
+
                     class:bg-primary-active-token={$page.url.pathname ===
                         `/${pageName}`}
                     >{pageName}
