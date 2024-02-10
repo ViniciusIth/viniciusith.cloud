@@ -1,0 +1,59 @@
+{
+   "projects": [
+      {
+         "title":"Pastecl",
+         "desc":"A simple pastebin like implemetation. Send your text files and recover them later. You may login, set a password and expiration date.",
+         "imageURL":"https://th.bing.com/th/id/OIG4.c6DV2N7TH.62_axRQJAW",
+         "projectURL":"https://github.com/ViniciusIth/pastecl",
+         "stacks":[
+            "golang",
+            "javascript"
+         ],
+         "tags":[
+            "web",
+            "api"
+         ]
+      },
+      {
+         "title":"Vynos Bot",
+         "desc":"A simple bot that query data from <a class=\"anchor\" href=\"https://wanderersguide.app/\" target=\"_blank\">Wanderers Guide<a/>. It can update, read and create characters and campaings.",
+         "imageURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAdVBMVEU7l9P////R09TO0NE1ldIsktEzlNIlkNAfjtDq8/r5/P7y+Pz3+/3O4vKbxea21OxLntZysN1nq9vb6vbV19iozOnj7/hZpNi00+zF3fDs7e2TweSGuuF8td+92O7k5ebm5+fy8/NVotihyOdDm9TL4PFfqNrJez6QAAASmElEQVR4nNWdCZurKg+Abcti7aZ2uh21M13//0+8gDuggpLO3HzPc+755kxb3xJIQkLwZvCyPm4u520axe97+PSYPO/vOEqTw/W1XwbQn+6Bvvtyc07iJ/YxJoQgz0OIA/L/IMR+gimlJIy21z3gM4ARLi/bNwPAJIfqFI5KqX9Pz/s1yIOAEK522ZPBDbC1QdmAktN24/5h3BNutnd/cOS6MCmOdku3z+OWcLWLCB1HVwoby/vBJaRLwks0PO2MBNOTO0hnhJsUUxd0uSBM44ubB3NDGBxCnzjDKyApSlwMpAvCfWq3bhozYj+avrhOJ9zH1PXwNSD9+1RlnUr4evsQw9dgpOH1Fwlfd4erCxDjFMI99PjVjPfx83E84TH6EJ9g9OPjhwmDFHB90QmhyUcJd+SzfFywN2pZHUV4PH1ggVGFqerqM4TbD07AthBqv6raE+7v9Jf4PD6Mke0wWhP+3gDmQqjlbLQkXJ1+cQBzQX4KSHj9hSVUFRza2EYrwvRXllBVkI2mWhCuTvi30UpBFubfnHCP/oKGlkJj54S7P6KhpeC7odkwJUz830aSBRGz9caQMPt1I6EKokYhlRFh8P4za0xTkG+ypJoQBuFfWmMagujOCeHqrwIy8c8OCFfPvwvIEAdHcZBw6f0tKyGLPxRPDRGu/jjgMOIAYfD864DMvek3Gv2Ef3YVbQqivUlyDeHquN9czwdeWvA/GEGPJ8r7MjgtwmD/eFOf/Y9SjDFBCADwlLhXC9KnifW/7Q8xmpi/NRC83QA4gKQn0sgJj+eI+BhiyGShmwDCxaXdOxseo8uQo+y0geBgdoJYvbqdG+/q+5PpzF+PmDptQdx42hVLeTwDMZEQhcZvgA+zGcREZPLsqB/j8/A4MUuGMuOXi28aZrcAR30rzeU5QXPQKTWdWejJPy2GmfMdU7G0Fg86mpGkqekjE7HkHWDiaUS1hr+yh6tsrPKQc2T6ynyfcw+054PuvYTsg0fmzOjeWO1oXn4IFa/QRz/hbHb1xugPXb8Nnxid8s/JoPx5nQ8ueXRb+9w1QrO7ISEuvuMd1MYWCgcJZ8vIdpIwIx4a/qpffMVLsM1XehgkZAb5bvemeDszDLJQ9WFwGwdYWU81cYelz0Gvpg9MsvIjjA2otRDF7msIL5aEx5lhUCKS8Leb/UdYPY68SzyZEJGZKaHPcynf3+yPFWCSQF5sNIRXO8I3I7T47K8v/ucJLlij52FCq7WcOWKBT022PMiWv/tiwf+EiaCEIBS4JcTsK3tdD0kavZ/Y9/kJiw5cYY5viwWfiEARVP5E2yFCO3vcciPWx/1r90iyd/h8yr+Yf7ff8zmfiDPIbB1t5U41hGc7Qv1Jl6XiqyKxjn/N52IiAkVQQnArya8htApuWMS3Xq/l8Hql2TfAPIcSLObzRWD7IbbSGkQdoZU5RuJwkxfeT3GUZRm3RkGiCzZ97m3844T/2F/2kGpKtv2ED3uHQxxGY6wZ36Q46L13YSvYNCwmImjGhwauCT1xZinlo7Tz1NFBiGBfTI65EP63CDIjgh+9hCNt1VYo/+YuHS1BGPvknezEkntbcEBhL8AiKPGhXtBHOCqxgN5ljmuflbkBhCklp+Ra72T+5IR8Ii5BqzsaCX4d4bhvl4alu7RMCOZwcRNOyFeupcJegOa18k09x4RM+8m2jM7OCpyQHHAuHDe4CIqLX6VNNYTjP5qtNllftjKfhsVEvIDW6NSxqFNC/s7+qbuM56ccQ+gIigkurf5kv1QRRJ9deaBiGhYT0TzbMUZw+RAawuPUfSK2hupPDi7mzYkIGEFxKSNhDWHgIFOqnZC3mvA2g42gvDrdpsuAm27w9opmQn5XhMJxC0COZVZSRhg6Qifqw9ZVX6o4r6bhByIoJs9uwtdk9UHEJ5l8sD6oh/ADEVQVm+sIV5OWGkIofh80ZvFfkxA8gqp2M7SVKKMjG66a92SjD/u/5w0RERRseUSRxNASjssNMSPxTK/d9eXzlvCf6CIohJ15c3nGVEtot1MjnotQGp17S8tviybgYq35HB6MRDtnRVO50dcSWloqFtyfHoMtZv61CflEPDY+h39HTMFnDneLUdxJaLXIERpfTI4+fLW1tBVBscFD2TVfe6etcy3BnYQWHuNANNGQuST8Z9zJZ3Q4bqy99lOkU0TlqY7QPIGJaGbauqI9DQvH7UopDZNNazPSoR9AHh2EpkqK6Nu8wdO3TPjDfrhS++2sHLoBPGukJTSc6hjZHMqVpmExEVWxy3wNIQZaQsM9Ij/r61z19f2v/YOFTLho//vtJ0d2WqfBHbexu/rEe/XwcduwWHz93GoAlfDW+O3v+UIE/o5TNtwiaghNgicaD3WS40SLxbwcSnkazgvHjbF/fy0WFbHboJHv1qiEBvaIyHlWjZTzrhhKZRqKiRj8Y3Qlu3iZ2x047pqqhMP2CD8NTv791IPGGDSAbBC/Fo2RzYfUcTrDDzSEg/aIdhRytmWtqmWvCDfOeVEfW2oUwqFNPqQtj9OIdth6CMWLto63ifFOJdwNEBofFP8epmpKbitcb/XjRCXsV1LiGR/2V+1D7xAKJT26jvpRpBCuez+DhBZ9N+wIhfVxv3MTKoS9ThM2PgTPxUpNcyV1so/ZFIQCmbAvNUszFaNH/lkMovDDIaoy6UomVMpgGr+81WD0iQ2h8HE3IXV98oruJcIeW6EpTh0QG3tRfv4rOTmlpC+JsNstHNG/yEJNfxovCzaPGLvqxIivEmHXYoZofyihEeZRmw+hEmztDzGhDjYWyUEi7HB8Ebbq1hz8a7ucJsI89O9/7YBlf4gmn6ojiUSo34MybbJR0M0XtngV5VymPJ4zbwolSduEa62SImQIuB4xdtqxvLXednlNn/7IFn8oaxNqcyXIM9lPu/37mk+la41lm3J1Se5jxhLFbUKdR0Oeg57a7ccdXYOyuQsiKF/J3bc0JejUJtSU0pCwv1X6bbpi9lAuZMpgs31jC0p0bxO+qVy/jO89gIIOCq+iZKZEpswNpgkmCtuEhzQ6eaJglOSvx6cOuDEGYQqmzpR4Bm6BTChkfXzttunbIwz1rcUTBuFTdDXlXHYLlrvhYOTZ040gWO67PDWIpWWQT56SzFQapJD6CAfk9rGR1BgPc3dnAiEXFyZ+iE4zA2Nk3gBCNw9tBYxS0LW/0c3jzYMrixYHLgi5OLcbnO7WpmOho31QJdvDqZROJqZmUVlektAfFTLKXtt0yp9pY6nxYpjfHdLR3QJQBHDPzFhTwsdOWjKPu8zzJ8XBcvTkjpJHGlZ4qkE4R5Miw4JQjoBdytpiw/S7ZRACZu4cdQTCD8gbrSz2ab5rOmYQnO1D8SwwJKGNlooXrDcHS3M3KPQCSGiTmslT3Ifp7Y4Uwg0goU3eAmxX318CElqtpXlmxrTBhrmQNRyhZf5QvMb5AQX0BLwd0C4HXKTxnWdI34CElnn8XE1dN8UjKRyhnZKWaur6QBs+wBH+NAn1bmq7aPjGXzX9IERb6AuOsFZSES7oCNtbrcKtCRwbRH8JRlgcH6kCWX3VFy/7Kgc4n4huD0DzxitQhP8WPNart1h+FD1dlFnRYihzNXV7AJrXskMRfkmRbH/1pRhKoaYO69i9vPUA2BjKP1C1VPqFW/4Sp24Nz1xDxhYtURyAb/3vPVyqKW+Q8TFCuWwhP9uFU/mshlO3hp98+hhhIBPm5/MIpe/2eRuHxXuiEaVECHhLtu7MjCgTRISSrD4R5rBXtKiQkbsKwhFKEzE/J1s8ijj0VFzo7LDSWzQXk2sxxt4yyJaI/qNr8smumwwjLnQ+L2czd0uN6PYpEcb6hKGRvH0UP17dKeM2If+JHA4ihNlQOitQzM86S4TZ4GUKPRJRfob0mWpbYkgTUUxDre1zd8I7v1JAronCUxbXiI8Jp/Siw0ZZtJRTssB9I7hTqhJuSatR1use3kPRmYzf7k5FOzYvfEdpcrjuNUUo5ZVCXN38U3JpFeI0Hbe89wcsYdH8Q63c85s6tsp84okmUPVXI5oiMV7qvZOdpJDNW5P4d+JljZOF8jSE7d9S1txLhFeaH2mrZRN2dhdGvEMSjlsGO22Pixj68uppueMAbOsPhAMdIV+/5VLZR39JGTfYUW2wU1X1CD2J2s06ghKRE2wfpaKztkIozqzIfbGX8VDPdmaw43MBmWgeHPl8TkidP0B7YdUtfWWvjT8eUoyiwc2O9Y32uivakDh0XC81/P+BdYQWQsrm3kolOx8ttWZ9FRuoFKKe6Euz1fyuaFJRTUQROcFep1FVbcuE+ZEZTVG3TvlUIX684TNX/Qd+Wqp03D7RFaNq9iUT5p697vqdndn+AqLhYXZQnl5ofnme7QOdTeoTkjJhMf111+8YG2hMt8pdAgivG2paawuQIFQ9tkx4rLySCYieZtdTOIm545bvOX1oCNUYv3R8iaa4+zxhI0x4g//qroJAXaLyk/aogdVzOk9zAmF0Oz6vCNYW1TR0fZZSCNnmT0/6el/WvT119ydO6DsiAu6vymUD6XeNi0Z+zSa0CmHzJK56i9Jy/B0xwgLxQ+t5xz2IaUiyvI81aT63Gg4297rwSQ6RVDtg/PH8Y28LyMjJ3+e7Bi1bpxK2YhqknFgzvelBkbzhJmjkFBabd63idJVQ+nZp2L5ecDN6PRVN8L4Au5eydUMEZLi1fmg2LeTtIfpuMY5eIkTbpp9FHjkB3OHBrHzexq/dYlzX3VPxR2h4rufj6Bkkrp4ous5DRE4kyZtakvZhXg2hpq8BD42qDYvRCkb5q+EiJ2YihBshdQzQba1pdxcYpBdt+f7TuG7YXhlBiWkI0M2bD53QLzx4N0Jn7w8kdl3w6DHk18rNfkQbM4BpyL8//uTyPSza7dH+coHRX7/onyZuYQGInER4xl1BLLW10BICXBUqpNIfgMhJzD7mNyMibUVrCaE2o6ubewHeX7SBZH6EclmQfhM/hQneyjsLACKnPCBkhFhuf6QnBBrE8tIw9z2SixwFM0LKFYEdiRiQ6K2Kapw3+Ci1g19TKKN0EK5hmqfmxri/Q8y4N14WhEQJ+LqSaWcQPcXi812X59U2MCJqC6TOdCHMnVNiIro3RmW+LCNUyfl1EsJs2Apt6ukQM06qnGeK1Sx9d8oXxGLw0M15zqm+1zHx1UZkPUltiPQed4/t7gQzkPo6562v7g/2EEK4x3wv2nXk5Nch/cFXMfoKE5y2Ei2EN8Fzqxu4YR92mlZdvaUXujTZ1Oc5OJ+GzTHRdHrqLy7JnCOiyMkGBqrW45YBvAzflguP6LmInNC7NNekZR6OmsrDoQIhTeHB1Kdz8B74UDYCJ4OtZQZLoDT53F8X9C5V3aBP5XCR12WoEOPzQvfFXefYoAugQRnbMoStXbIWFBWbBM3r1aYQ8orFX2Zqi38sNgl8kyZyZqWI1/FJNffCPL88OjHRUeNK9uXpt7lqYfGJSIDJ1+KOJ1wfL4cU+F4fC6GHYhvJsN/vsLXghZaTWxu4E54cFJsExLBd7PAYbp5/yiLyGJrv1SFlU2004WD55UdF5KT5lDFup2q00izjv7KW5glsrlTPoYe2ImSOjQdbDGoqQjX5QuNvBp/ZjpDXJv4BVc0rfJi9V7ITDghny+jTqqqoTRHOn7G6d++CkN/1+0lGRM9SLrZOe2CL81l2B0h2Dk+0DAgOl1IuGpFi4DKC+h9zAuFsdvgQo58qqejKz35rCu7cEfKr1+EZES+Ck1LhfqWZz7Dv+aYTckbg+UhPTB+X7Up3vzqtFBgFTZMIZ8HuCciIBEzQ/mENOFsZG/vxhExeMZR9JEgY83vr7ZvnI/Z2zdPHH8bbZ+46cjUEv0VVWrt7hN90Qi2u2JhGyBTpfHJ9lQEqkketHT40oqe/G0ImxwS51Fbi5ZvWrWINQqxa3jsmZHLJyOi+jZLQKN+XWDcVA98t1dI5IZNXwrtTTj3HVNcjNyZhfuptirjqqbB6PSLCMDFB9YFTJP4utwjvEPwslfFab14SYnr5Uqc47RqxfJ232Sl8ikth+ah6zzA8xSYtmxGtDN6qWqKRH/U3hDcRkL4YwXolZC2m1To14LvXJ3RKHUXYmzyAsw90/lgn/uBii0mjGK0slcfE+mIbrQATBtvh06eYJs2t3bBQ0HTaEloJKOF6O+wRYJq24vW8GIuGk2xgUwAJl8ng+CGZLw8Kke+wxwoY4Sbyh/wARL2HrIq8iRL2nA3gDIpwfQ6HnDk2fJEaJPADX6Vn40ggCDcZ7o86eMOdeKdbSVKC/OE7Tq3EPeEyon0tuLkz8Eyveku+9MmEHkB6AdHS4y7tbLsWPS7de52ReuJxsvwH8/UYG9y2P3EAAAAASUVORK5CYII=",
+         "projectURL":"https://github.com/ViniciusIth",
+         "stacks":[
+            "javascript"
+         ],
+         "tags":[
+            "discord",
+            "bot"
+         ]
+      },
+      {
+         "title":"Go Home",
+         "desc":"For those who won't explore fearing the way back home. Adds configurable items to help on the way back.",
+         "imageURL":"https://cdn.modrinth.com/data/A7tGIXe0/e8d1ba4dc9fd9f1ecdcba466230542b4e8bfbadf.png",
+         "projectURL":"https://modrinth.com/mod/go-home",
+         "stacks":[
+            "java"
+         ],
+         "tags":[
+            "mod",
+            "minecraft",
+            "fabric"
+         ]
+      },
+      {
+         "title":"Shadow Grave",
+         "desc":"Another gravestone mod, but based around spirits. Beware, your grave might try to attack you.",
+         "imageURL":"https://i.pinimg.com/564x/35/e6/b2/35e6b20b1fdbdb8ad0f04c90c9b46280.jpg",
+         "projectURL":"https://github.com/ViniciusIth/shadowgrave",
+         "stacks":[
+            "java"
+         ],
+         "tags":[
+            "mods",
+            "minecraft",
+            "fabric"
+         ]
+      }
+   ]
+}

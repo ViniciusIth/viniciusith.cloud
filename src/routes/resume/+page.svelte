@@ -6,12 +6,12 @@
     <h1 class="text-xl font-semibold">Vinicius Ithalo Dias</h1>
     <h2 class="italic text-tertiary-800">Fullstack Developer</h2>
 
-    <div class="mt-6">
+    <div class="mt-5">
         <address>Brasilia - Brazil</address>
         <a href="mailto:viniciusit@yahoo.com">viniciusith@yahoo.com</a>
     </div>
 
-    <ul class="mt-6 list-none">
+    <ul class="mt-5 list-none">
         <li>
             <a class="anchor" href="https://github.com/ViniciusIth"
                 >github.com/ViniciusIth</a
@@ -30,21 +30,21 @@
     </ul>
 </section>
 
-<section class="mt-12">
+<section class="mt-10">
     <h2 class="text-lg font-semibold">About</h2>
 
-    <p class="my-4 ml-2">
+    <p class="my-5 ml-2">
         Having immersed myself in web and server-side development since 2019,
         I've found immense joy in collaborating within the open-source community
         while actively seeking new projects to contribute to.
     </p>
-    <p class="my-4 ml-2">
+    <p class="my-5 ml-2">
         My journey in the tech industry spans across various technologies, yet
         I'm constantly driven by a thirst for learning. I'm more than ready to
         embrace and master new technologies, always aiming to contribute towards
         shaping the future.
     </p>
-    <p class="my-4 ml-2">
+    <p class="my-5 ml-2">
         For any discussions or collaborations, feel free to reach out at <a
             class="anchor"
             href="mailto:viniciusit.yahoo.com">viniciusith.yahoo.com</a
@@ -53,10 +53,10 @@
     </p>
 </section>
 
-<section class="mt-12">
+<section class="mt-10">
     <h2 class="text-lg font-semibold">Experience</h2>
 
-    <article class="my-4 pl-4">
+    <article class="my-5 pl-4">
         <h3 class="font-semibold">Web Developer</h3>
 
         <blockquote class="blockquote">
@@ -65,7 +65,7 @@
                 >January, 2022 - December, 2022</time
             >
 
-            <p class="mt-4 text-justify">
+            <p class="mt-5 text-justify">
                 I joined a team developing an Angular web application aimed at
                 tracking student progress and enhancing communication between
                 the school and parents. The proposal was to help students
@@ -78,10 +78,10 @@
     </article>
 </section>
 
-<section class="mt-12">
+<section class="mt-10">
     <h2 class="text-lg font-semibold">Education</h2>
 
-    <article class="my-4 pl-4">
+    <article class="my-5 pl-4">
         <h3 class="font-semibold">Universidade de Brasilia</h3>
 
         <blockquote class="blockquote">
@@ -96,7 +96,7 @@
         </blockquote>
     </article>
 
-    <article class="my-4 pl-4">
+    <article class="my-5 pl-4">
         <h3 class="font-semibold">CEMIC - DF</h3>
 
         <blockquote class="blockquote">
@@ -110,10 +110,10 @@
     </article>
 </section>
 
-<section class="mt-12">
+<section class="mt-10">
     <h2 class="text-lg font-semibold">Skillset</h2>
 
-    <article class="my-4 pl-4">
+    <article class="my-5 pl-4">
         <h3 class="font-semibold">Languages</h3>
 
         <blockquote class="blockquote">
@@ -121,7 +121,7 @@
         </blockquote>
     </article>
 
-    <article class="my-4 pl-4">
+    <article class="my-5 pl-4">
         <h3 class="font-semibold">Programming languages</h3>
 
         <blockquote class="blockquote">
@@ -132,7 +132,7 @@
         </blockquote>
     </article>
 
-    <article class="my-4 pl-4">
+    <article class="my-5 pl-4">
         <h3 class="font-semibold">Services</h3>
 
         <blockquote class="blockquote">
@@ -143,7 +143,7 @@
         </blockquote>
     </article>
 
-    <article class="my-4 pl-4">
+    <article class="my-5 pl-4">
         <h3 class="font-semibold">Systems</h3>
 
         <blockquote class="blockquote">
@@ -151,7 +151,7 @@
         </blockquote>
     </article>
 
-    <article class="my-4 pl-4">
+    <article class="my-5 pl-4">
         <h3 class="font-semibold">Much more</h3>
 
         <blockquote class="blockquote">

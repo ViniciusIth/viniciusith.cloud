@@ -61,7 +61,7 @@
 
 <div class="mx-auto max-w-3xl px-6 py-3 md:px-0 md:py-12">
     <button
-        class="btn-icon btn-icon-sm variant-filled-surface mb-3"
+        class="btn-icon btn-icon-sm variant-filled-surface mb-5"
         on:click={() => {
             drawerStore.open(drawerSettings);
         }}><span class="material-symbols-outlined"> menu </span></button
