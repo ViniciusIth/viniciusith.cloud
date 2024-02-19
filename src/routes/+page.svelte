@@ -11,9 +11,9 @@
     />
 </svelte:head>
 
-<section class="mb-10">
+<section class="mt-10 mb-5">
     <h1 class="h2 mb-5">ViniciusIth</h1>
-    <p>I'm a developer, and sometimes, a biologist from Brazil. I</p>
+    <p>I'm a developer, and sometimes, a biologist from Brazil.</p>
     <p>
         Take a look at my <a href="projects" class="anchor">portfolio</a>, my
         <a href="resume" class="anchor">resume</a> or contact me through one of the
@@ -21,7 +21,7 @@
     </p>
 </section>
 
-<div class="logo-cloud grid-cols-1 md:!grid-cols-3 gap-1 variant-glass">
+<div class="variant-glass logo-cloud grid-cols-1 gap-1 md:!grid-cols-3">
     <a class="logo-item" target="_blank" href="https://github.com/viniciusIth">
         <svg
             xmlns="http://www.w3.org/2000/svg"

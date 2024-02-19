@@ -15,27 +15,31 @@
     </p>
 </section>
 
-<section class="grid md:grid-cols-3 gap-4">
+<section class="grid gap-4 gap-y-10 md:grid-cols-3">
     {#each projects as project}
         <a
             href={project.projectURL}
             target="_blank"
-            class="card p-4 card-hover"
+            class="card card-hover p-4"
         >
             <img src={project.imageURL} alt="" class="mb-5 rounded-2xl" />
             <h2 class="h4">{project.title}</h2>
-            <p class="overflow-hidden text-ellipsis line-clamp-3 text-justify">{@html project.desc}</p>
-            <hr class="!border-t-2 my-5" />
+            <p class="line-clamp-3 overflow-hidden text-ellipsis text-justify">
+                {@html project.desc}
+            </p>
+            <hr class="my-5 !border-t-2" />
             <div class="inline">
                 {#each project.stacks as stack}
-                    <span class="chip variant-filled-primary m-1 rounded-full"
+                    <span
+                        class="variant-filled-primary chip m-1 rounded-full font-bold"
                         >{stack}</span
                     >
                 {/each}
             </div>
             <div class="inline">
                 {#each project.tags as tag}
-                    <span class="chip variant-ghost-secondary m-1 rounded-full"
+                    <span
+                        class="variant-ghost-secondary chip m-1 rounded-full font-bold"
                         >{tag}</span
                     >
                 {/each}
