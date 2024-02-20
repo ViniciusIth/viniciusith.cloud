@@ -8,7 +8,7 @@
 
     <div class="mt-5">
         <address>Brasilia - Brazil</address>
-        <a href="mailto:viniciusit@yahoo.com">viniciusith@yahoo.com</a>
+        <a href="mailto:viniciusith@yahoo.com">viniciusith@yahoo.com</a>
     </div>
 
     <ul class="mt-5 list-none">
@@ -47,7 +47,7 @@
     <p class="my-5 ml-2">
         For any discussions or collaborations, feel free to reach out at <a
             class="anchor"
-            href="mailto:viniciusit@yahoo.com">viniciusith@yahoo.com</a
+            href="mailto:viniciusith@yahoo.com">viniciusith@yahoo.com</a
         >. I thrive in team environments but also engage in freelance and
         contracting opportunities.
     </p>
