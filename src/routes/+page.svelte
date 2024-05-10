@@ -8,12 +8,15 @@
 </svelte:head>
 
 <section class="mt-10 mb-5">
-    <h1 class="h2 mb-5">ViniciusIth</h1>
-    <p>I'm a developer, and sometimes, a biologist from Brazil.</p>
-    <p>
+    <h1 class="h1 mb-5">ViniciusIth</h1>
+    <p class="h5 font-medium">
+        I'm a developer and, sometimes, a biologist from Brazil.
+    </p>
+    <p class="h5">
         Take a look at my <a href="projects" class="anchor">portfolio</a>, my
-        <a href="resume" class="anchor">resume</a> or contact me through one of the
-        links below.
+        <a href="resume" class="anchor">resume</a>. I'm always open to new
+        opportunities. Feel free to reach out. I'm more than ready to embrace
+        and master new technologies, always.
     </p>
 </section>
 

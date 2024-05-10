@@ -8,7 +8,7 @@
     import { getDrawerStore } from "@skeletonlabs/skeleton";
     import LightSwitch from "../components/lightswitch.svelte";
 
-    const mainPages: Array<string> = ["resume", "projects", "blog"];
+    const mainPages: Array<string> = ["projects", "resume", "blog"];
 
     initializeStores();
 

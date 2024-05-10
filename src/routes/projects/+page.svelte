@@ -8,8 +8,8 @@
 </svelte:head>
 
 <section class="mb-10">
-    <h1 class="h2 mb-5">My latest projects</h1>
-    <p>
+    <h1 class="h1 mb-5">My latest projects</h1>
+    <p class="h4">
         Here are some repositories I'm working or have worked on. You can check
         them out on my GitHub profile or by clicking on them.
     </p>
